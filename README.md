@@ -8,4 +8,7 @@
 	git clone <URL>
 4) to create a new empty repository:
 	git init
-5) 
+5) to commit changes on local repository:
+	git add .
+	git commit -m "message"
+
