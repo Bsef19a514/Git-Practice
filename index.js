@@ -1,5 +1,7 @@
 const add=(num1,num2)=>{
-    return num1+num2;
+    const res=num1+num2;
+    console.log(`Sum is: ${res}`);
+    return res;
 }
 
 const subtract=(num1,num2)=>{
