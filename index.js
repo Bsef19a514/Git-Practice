@@ -5,7 +5,9 @@ const add=(num1,num2)=>{
 }
 
 const subtract=(num1,num2)=>{
-    return num1-num2;
+    const res=num1-num2;
+    console.log(`Subtration is: ${res}`);
+    return res;
 }
 
 const multiply=(num1,num2)=>{
