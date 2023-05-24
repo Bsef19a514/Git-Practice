@@ -2,7 +2,7 @@
 
 1) to create a git repository with specific default branch name:
 	git config --global init.defaultBranch <name>
-2) The just-created branch can be renamed via this command
+2) The just-created branch can be renamed using this command
 	 
 3) to clone a remote ropsitory:
 	git clone <URL>
