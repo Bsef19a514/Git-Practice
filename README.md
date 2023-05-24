@@ -34,4 +34,12 @@
 	git branch <branch-name>	
 14) to switch to a specific branch:
 	git checkout <branch-name>
-
+15) what is git config?
+	config command is used to set configurations in git in local or remote projects
+	it has different levels
+	--local (by default level is set to local so dont need to explicitly mention it)
+	--global (set configurations for a OS user)
+	--system (set configurations for all the users of the machine)
+16) How to set name and email in git config?
+	git config --global user.email "your email"
+	git config --global user.name "your name"
