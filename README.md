@@ -11,4 +11,6 @@
 5) to commit changes on local repository:
 	git add .
 	git commit -m "message"
-
+6) to check status of git repository:
+	git status
+7) 
