@@ -34,7 +34,8 @@
 10) to add a new remote to local repository:
 	git remote add <remote-name> <url>
 	git remote add orgin https://github.com/Bsef19a514/Git-Practice
-	
+		or 
+
 11) to change remote urls:
 	git remote set-url <existing remote name> <new url>
 	git remote set-url origin git@github.com:Bsef19a514/Git-Practice.git
@@ -43,7 +44,9 @@
 	git branch
 	
 13) to create a new branch locally:
-	git branch <branch-name>
+	git branch <branch-name> (just creates a new branch)
+		or
+	git checkout -b new_branch (creates a new branch and switch to that branch)
 		
 14) to switch to a specific branch:
 	git checkout <branch-name>
@@ -103,4 +106,9 @@
 
 21) how to resolve merge conflicts in VScode and github?
 
+22) whare are production, development and release branches?
+	production : the mode stable  and developed branch that is well tested and has no bugs and can be deployed into a production environment.
+	development: the branch that is under development , it may contain ongoing features and bugs. Each individual developer merges his feature branch into the developemnt branch.
+	release branch: the release branch is created when yo uare going to make a new reale of your software. it is created from developemnt branch. dedicated testing is done on this branch to ensure there is no integration bugs and quality attributes. The changes made to this branch are made to both development and production branches.
+ 
 	
